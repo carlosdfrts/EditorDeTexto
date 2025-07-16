@@ -11,27 +11,32 @@ O programa simula um editor simples de textos (semelhante ao Bloco de Notas), pe
 ## Como Usar
 Ao executar o programa, será apresentado um menu com as seguintes opções:
 1: Criar um novo documento
+
 2: Abrir um documento existente
+
 3: Editar o conteúdo do texto atual
+
 4: Salvar o documento em um arquivo .txt
+
 5: Sair do programa
+
 Você poderá digitar livremente no espaço, visualizar o texto atual e salvar suas alterações. Os arquivos são gravados no formato .txt e podem ser reabertos a qualquer momento para novas edições.
 
 ## Ferramentas
 
 O programa oferece diversas ferramentas para edição e personalização do texto, incluindo:
 
-•Alinhamento de texto (esquerda, centralizado, direita)
+• Alinhamento de texto (esquerda, centralizado, direita)
 
-•Mudança de fonte (nome, tamanho, estilo)
+• Mudança de fonte (nome, tamanho, estilo)
 
-•Negrito, itálico e sublinhado
+• Negrito, itálico e sublinhado
 
-•Personalização da fonte, como tipo e cor
+• Personalização da fonte, como tipo e cor
 
-•Desfazer e refazer alterações recentes
+• Desfazer e refazer alterações recentes
 
-•Impressão do documento diretamente pelo sistema
+• Impressão do documento diretamente pelo sistema
 
 Essas funcionalidades tornam o editor mais completo e próximo de um editor gráfico tradicional, como o WordPad ou o Bloco de Notas com recursos avançados.
 
