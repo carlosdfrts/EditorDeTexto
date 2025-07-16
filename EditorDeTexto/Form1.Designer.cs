@@ -84,6 +84,7 @@
             this.richTextBox1.Size = new System.Drawing.Size(800, 386);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // menuStrip1
             // 
@@ -113,34 +114,34 @@
             // novoToolStripMenuItem
             // 
             this.novoToolStripMenuItem.Name = "novoToolStripMenuItem";
-            this.novoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.novoToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
             this.novoToolStripMenuItem.Text = "Novo";
             this.novoToolStripMenuItem.Click += new System.EventHandler(this.novoToolStripMenuItem_Click);
             // 
             // abrirToolStripMenuItem
             // 
             this.abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
-            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
             this.abrirToolStripMenuItem.Text = "Abrir";
             this.abrirToolStripMenuItem.Click += new System.EventHandler(this.abrirToolStripMenuItem_Click);
             // 
             // salvarToolStripMenuItem
             // 
             this.salvarToolStripMenuItem.Name = "salvarToolStripMenuItem";
-            this.salvarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salvarToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
             this.salvarToolStripMenuItem.Text = "Salvar";
             this.salvarToolStripMenuItem.Click += new System.EventHandler(this.salvarToolStripMenuItem_Click);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(177, 6);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(117, 6);
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // imprimirToolStripMenuItem
             // 
             this.imprimirToolStripMenuItem.Name = "imprimirToolStripMenuItem";
-            this.imprimirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.imprimirToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
             this.imprimirToolStripMenuItem.Text = "Imprimir";
             this.imprimirToolStripMenuItem.Click += new System.EventHandler(this.imprimirToolStripMenuItem_Click);
             // 
@@ -149,6 +150,7 @@
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // editarToolStripMenuItem
             // 
@@ -178,14 +180,14 @@
             // desfazerToolStripMenuItem
             // 
             this.desfazerToolStripMenuItem.Name = "desfazerToolStripMenuItem";
-            this.desfazerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.desfazerToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.desfazerToolStripMenuItem.Text = "Desfazer";
             this.desfazerToolStripMenuItem.Click += new System.EventHandler(this.desfazerToolStripMenuItem_Click);
             // 
             // refazerToolStripMenuItem
             // 
             this.refazerToolStripMenuItem.Name = "refazerToolStripMenuItem";
-            this.refazerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.refazerToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.refazerToolStripMenuItem.Text = "Refazer";
             this.refazerToolStripMenuItem.Click += new System.EventHandler(this.refazerToolStripMenuItem_Click);
             // 
