@@ -10,6 +10,7 @@ O programa simula um editor simples de textos (semelhante ao Bloco de Notas), pe
 
 ## Como Usar
 Ao executar o programa, será apresentado um menu com as seguintes opções:
+
 1: Criar um novo documento
 
 2: Abrir um documento existente
